@@ -10,6 +10,8 @@ import time
 import threading
 from datetime import datetime, timedelta, timezone
 import pytz
+import pandas as pd  # Added for DataFrame type hints
+import numpy as np   # Added for calculations
 import logging
 from typing import Dict, List, Optional, Callable, Any
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor

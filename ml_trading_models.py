@@ -14,7 +14,7 @@ from torch.utils.data import Dataset, DataLoader
 import xgboost as xgb
 import lightgbm as lgb
 import catboost as cb
-from sklearn.model_selection import TimeSeriesSplit, PurgedGroupTimeSeriesSplit
+from sklearn.model_selection import TimeSeriesSplit
 from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.isotonic import IsotonicRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
